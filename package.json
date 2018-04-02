@@ -1,10 +1,13 @@
 {
   "name": "eaglepointe",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.1",
+  "description": "Tigard EaglePointe website",
   "scripts": {
     "start": "node ./bin/www"
   },
+  "repository": "git@github.com:DaveNTigard/EaglePointe.git",
+  "author": "David K. McRaven",
+  "license": "MIT",
   "dependencies": {
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
