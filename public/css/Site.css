@@ -1,0 +1,416 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    background: #9cf;/*#480000;*/
+    font-size: .90em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    /*margin: 0px;
+    padding: 0px;*/
+    color: #696969;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+ul, li
+{
+    color:Black;
+}
+
+p
+{
+    color:Black;
+    line-height:1em;
+}
+
+/*a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:activexrw
+{
+    color: #034af3;
+}*/
+
+/*p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}*/
+
+tr, img
+{
+    padding:0px;
+    margin:0px;
+    border:0px;
+}
+table
+{
+    border:0px;
+	border-collapse:collapse;
+	border-spacing:0px;
+	margin: 0px;
+	padding:0px;
+	table-layout:fixed;
+    background-color:#fff;
+    vertical-align:middle;
+}
+
+table.directory 
+{
+    /*padding: 1em;*/
+    border: 1px solid Navy;
+    /*width: 550px;*/
+}
+
+thead
+{
+    background-color: #FC0;
+    color: white;
+    font-weight:bold;
+    font-size: 1.25em;
+}
+.box 
+{
+    padding: .5em;
+    border: 1px solid rgb(0, 0, 82);
+    width: 90%;
+    /*width: 550px;*/
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    /*font-size: 1.5em;*/
+    color: #666;
+    /*font-variant: small-caps;*/
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.8em;
+    /*padding-bottom: 0px;
+    margin-bottom: 1em;*/
+}
+
+h2
+{
+    font-size: 1.5em;
+    /*font-weight: 600;*/
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+    line-height:1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+/*.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}*/
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.background
+{
+    background:#9cf; /*#480000;*/
+    border:0px;
+	border-collapse:collapse;
+	border-spacing:0px;
+	margin: 0px;
+	padding:0px;
+	table-layout:fixed;
+    vertical-align:top;
+}
+
+.page
+{
+    padding: 0px;
+    width: 760px;
+    background-color:#8f8f8f;
+    margin: 0px;
+    border: 1px solid Navy;
+}
+
+.header
+{
+    /*position: relative;*/
+    font-family: "Adobe Hebrew";
+    font-weight:bold;
+    text-align: center;
+    background-color: #fc0;
+    height: 120px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    /*color: #333; #F4BA53;*/
+}
+
+.header a
+{
+    border:0px;
+}
+.h2
+{
+    background-color: #fc0;
+    border:0px;
+    margin: 0px;
+    padding: 0px;
+    height: 120px;
+    width:600px;
+}
+
+.bar
+{
+    background-image: url('../i/b4.png');
+    background-color: #fc0;
+    background-repeat: repeat-x;
+    margin:0px;
+    border:0px;
+    padding:0px;
+    width: 100%;
+    height:16px;
+}
+
+/*.header h1
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    font-family: "Adobe Hebrew";
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    color: #FBD831;
+    /*color: #f9f9f9;
+    line-height: 2em;
+    font-size: 1.5em;
+}
+
+*/
+.main
+{
+    padding: 1em;
+    vertical-align:top;
+    /*margin: 0px 1em 0px 1em;*/
+}
+
+.leftCol
+{
+    width: 160px;
+    background-color: #fc0;
+}
+
+.rightCol
+{
+    width: 600px;
+    margin: 0px 1em 0px 1em;
+}
+
+.center
+{
+    text-align:center;
+}
+
+.footer
+{
+    background:#fff;
+    color: #4e5766;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    line-height: normal;
+    font-size: .75em;
+    border-top: 1px solid Navy;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+/*table.mainpage
+{	
+    background-color:White;
+	border-collapse:collapse;
+	border-spacing:0;
+}*/
+
+div.hideSkiplink
+{
+    background-color:#3a4f63;
+    width:100%;
+}
+
+div.menu
+{
+    padding: 0px;
+    margin-top: 0px;
+    font-size: 1.25em;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    /*width: auto;*/
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: transparent;/*#fc0;/*#F2C717;*/
+    border: 0px #4e667d solid;
+    color: #FFFFFF;
+    display: block;
+    line-height: 2em;
+    padding: 4px 4px;
+    text-decoration:none;
+    white-space: nowrap;
+    font-weight:500;
+    font-size: inherit;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+td.menu
+{
+    background-image: url('../i/lc.png');
+    background-repeat: repeat-y;
+    vertical-align:top;
+    border-right: 0px;
+    /*width:160px;*/
+    padding: 0px;
+    margin:0px;
+}
+
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+/*
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+*/
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+/*
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+*/
