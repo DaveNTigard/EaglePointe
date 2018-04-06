@@ -18,7 +18,12 @@ router.get('/interest', function (req, res) {
 
 //  FAQ
 router.get('/faq', function (req, res) {
-  res.render('faq', { title: 'Frequently Asked Questions' });
+  res.render('faq', { title: 'HOA Documents' });
+});
+
+//  Homes
+router.get('/homes', function (req, res) {
+  res.render('homes', { title: 'Homes for Sale' });
 });
 
 //  Sponsors
