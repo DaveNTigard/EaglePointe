@@ -27,9 +27,9 @@ router.get('/homes', function (req, res) {
 });
 
 //  Sponsors
-router.get('/sponsors', function (req, res) {
-  res.render('sponsors', { title: 'Sponsors' });
-});
+//router.get('/sponsors', function (req, res) {
+//  res.render('sponsors', { title: 'Sponsors' });
+//});
 
 //  Privacy
 router.get('/privacy', function (req, res) {

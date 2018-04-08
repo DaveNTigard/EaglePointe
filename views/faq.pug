@@ -3,37 +3,37 @@ extends layout
 block content
 
   main(role="main")
-    h1 Frequently Asked HOA Questions
+    div.container
+      h1 Frequently Asked HOA Questions
+      p Here you will find answers to frequently asked questions regarding HOA policies and procedures.
 
-    p Here you will find answers to frequently asked questions regarding HOA policies and procedures.
+      ul
+        li
+          a(href="#laws") Where can I get a copy of the HOA By Laws and legal documents?
+        li
+          a(href="#dues") When are HOA dues paid? 
+        li
+          a(href="#architectural") Who should I contact about architectural changes?
 
-    ul
-      li
-        a(href="#laws") Where can I get a copy of the HOA By Laws and legal documents?
-      li
-        a(href="#dues") When are HOA dues paid? 
-      li
-        a(href="#architectural") Who should I contact about architectural changes?
+      div#laws(class="box")
+        h3 Q.  Where can I get a copy of the HOA convenents, codes and restrictions?
+        p A.  The following Adobe Acrobat files constitute the bulk of the 
+          a(target="_blank" href="/attach/EAGLE_POINTE CCRs.pdf") HOA convenents, codes and restrictions
+          span . If you cannot view these documents in your browser, you can download a free copy of Adobe Acrobat reader 
+            a(target="_blank" href="https://get.adobe.com/reader/") here.
 
-    div#laws(class="box")
-      h3 Q.  Where can I get a copy of the HOA convenents, codes and restrictions?
-      p A.  The following Adobe Acrobat files constitute the bulk of the 
-        a(target="_blank" href="/attach/EAGLE_POINTE CCRs.pdf") HOA convenents, codes and restrictions
-        span . If you cannot view these documents in your browser, you can download a free copy of Adobe Acrobat reader 
-          a(target="_blank" href="https://get.adobe.com/reader/") here.
-
-    div#dues(class="box")
-      h3 Q.  When are HOA dues paid?
-      p A:  HOA dues are $79.00 for calendar year 2018.  You should make payment to the HOA Treasurer by January 31.  Late payments are subject penalty of $15 per month.  
-      p You can use the 
-        a(target="_blank" href="Attach/2011 EPHOA Dues.pdf") 2011 dues document
-        span to remit the remit dues
+      div#dues(class="box")
+        h3 Q.  When are HOA dues paid?
+        p A:  HOA dues are $79.00 for calendar year 2018.  You should make payment to the HOA Treasurer by January 31.  Late payments are subject penalty of $15 per month.  
+        p You can use the 
+          a(target="_blank" href="Attach/2011 EPHOA Dues.pdf") 2011 dues document
+          span &nbsp;to remit the remit dues
  
-    div#architectural(class="box")
-      h3 Q.  Who should I contact about architectural changes?
-      p A:  Architectural approval is performed by a rotating group of Eagle Pointe home owners.  You can reach the current members of the Architectural Review Committee at 
-        a(href="mailto:ephoa97223@comcast.net") ephoa97223@comcast.net
-        span .  The committee reviews fixed-structure modification, such as house additions, sheds, etc. If you have a question about architectural approval, please contact the HOA directly.</p>
-      p Please submit the review at least 30 days before the start of the project.  You can used the 
-        a(href="Attach/EPHOA ARC FORM 2010.pdf") PHOA ARC FORM 2010.pdf
-        span &nbsp; file to submit your modifications.
+      div#architectural(class="box")
+        h3 Q.  Who should I contact about architectural changes?
+        p A:  Architectural approval is performed by a rotating group of Eagle Pointe home owners.  You can reach the current members of the Architectural Review Committee at 
+          a(href="mailto:ephoa97223@comcast.net") ephoa97223@comcast.net
+          span .  The committee reviews fixed-structure modification, such as house additions, sheds, etc. If you have a question about architectural approval, please contact the HOA directly.</p>
+        p Please submit the review at least 30 days before the start of the project.  You can used the 
+          a(href="Attach/EPHOA ARC FORM 2010.pdf") EPHOA ARC FORM 2010.pdf
+          span &nbsp; file to submit your modifications.

@@ -12,8 +12,15 @@ html
 
     title= title
     link(href='/css/bootstrap.min.css' rel='stylesheet')
+    link(href='/css/bootstrap.min.css' rel='stylesheet')
     link(href='/css/style.css' rel='stylesheet')
     link(href='/images/favicon.png' rel="shortcut icon" )
+
+    //script($(window).resize(function () { 
+    //$('body').css('padding-top', parseInt($('#main-navbar')height(")))+10);});
+
+    //$(window).load(function () { 
+    //$('body').css('padding-top', parseInt($('#main-navbar').height()))+10);});)
 
   body
     nav.navbar.navbar-expand.navbar-dark.fixed-top.bg-dark
@@ -24,8 +31,6 @@ html
       div#navDefault.collapse.navbar-collapse
         ul.navbar-nav.bd-navbar-nav.flex-row
           li.nav-item
-            a.nav-link.active(href="/") Home
-          li.nav-item
             a.nav-link.active(href="FAQ") HOA Documents
   
           ul.navbar-nav.flex-row.ml-md-auto.d-none.d-md-flex
@@ -35,13 +40,13 @@ html
                 a.dropdown-item.bg-dark.active(href="board") HOA Board
                 a.dropdown-item.bg-dark.active(href="interest") Points of Interest
                 a.dropdown-item.bg-dark.active(href="homes") Homes for Sale
-                a.dropdown-item.bg-dark.active(href="sponsors") Sponsors
+                //a.dropdown-item.bg-dark.active(href="sponsors") Sponsors
 
     block content
     
-    footer#footer.container.bd-footer.text-muted
+    footer#footer.container-flex.bd-footer
       div.container-fluid.p-3.p-md-5
-        p COPYRIGHT &copy; 2010-2018, All Rights Reserved.&nbsp;|&nbsp; Powered with&nbsp;
+        p COPYRIGHT &copy; 2010-2018, All Rights Reserved&nbsp;|&nbsp; Powered with&nbsp;
           a(target="_blank" href="http://globegistics.com") Sabrix, Inc
           span .&nbsp;|&nbsp; 
           a(href="privacy") Privacy Notice
