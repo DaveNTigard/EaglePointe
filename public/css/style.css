@@ -6,15 +6,6 @@ body
     background:#eee;
 }
 
-thead
-{
-    background-color: #FC0;
-    color: white;
-    font-weight:bold;
-    font-size: 1.25em;
-}
-
-
 .navbar {
     background-image: -webkit-linear-gradient(#04519b, #044687 60%, #033769);
     background-image: -o-linear-gradient(#04519b, #044687 60%, #033769);
@@ -37,21 +28,25 @@ thead
     font-size: 30px;
     font-weight: 300;
     color: #FC0;
-    vertical-align: baseline;
 }
 
 .jumbotron { 
     background: url("/images/h1.png");
     background-repeat: repeat-y;
     background-size: 100%;
-    color: #033769;
+}
+
+.jumbotron h1 {
+    color: #033769; 
 }
 
 .opaque {
-    opacity: 1;
+    border-radius: 30px;
+	-moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
     background: rgba(255,255,255,.5);
     border-color: #033769;
-    padding: 30px;
+    padding: 40px;
 }
 
 .table-header
