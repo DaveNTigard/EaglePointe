@@ -6,6 +6,10 @@ body
     background:#eee;
 }
 
+h1 {
+    color: #033769; 
+}
+
 .navbar {
     background-image: -webkit-linear-gradient(#04519b, #044687 60%, #033769);
     background-image: -o-linear-gradient(#04519b, #044687 60%, #033769);
@@ -36,8 +40,10 @@ body
     background-size: 100%;
 }
 
-.jumbotron h1 {
-    color: #033769; 
+.jumbotron p {
+    color: #111; 
+    font-size: 1.4rem;
+    line-height: 1.25;
 }
 
 .opaque {
@@ -58,7 +64,7 @@ body
 
 .table-bordered {
     border-style: solid;
-    border-width: medium;
+    border-width: thin;
     border-color: #033769;
 }
 
@@ -71,7 +77,13 @@ body
 
 .old{
     background-color: #ccc;
-    color: #eee;
+    color: #fff;
+}
+
+.google-map {
+    border-width: medium;
+    border-color: #033769;
+    padding-bottom: 1rem;
 }
 
 #footer {
@@ -86,14 +98,7 @@ body
     height: 10rem;
 }
 
-.google-map {
-    border-width: medium;
-    /*color: #fff; */
-    border-color: #033769;
-    padding-bottom: 1rem;
-}
-
- #footer a {
+#footer a {
     color: #FC0;
   }
    
