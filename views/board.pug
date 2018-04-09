@@ -2,68 +2,60 @@ extends layout
 
 block content
   main.container(role="main")
-    div.container
-      h1 Board Members
-      table.table.table-bordered
-        thead.thread-dark
-          tr.m-0
-            td.col-sm-6 Officer
-            td.col-sm-6 Name
-        tbody
-          tr.m-0
-            td.col-sm-6 President
-            td.col-sm-6 Jesse Reed
-          tr.m-0
-            td.col-sm-6 Treasurer
-            td.col-sm-6 Michael West
-          tr.m-0
-            td.col-sm-6 Secretary
-            td.col-sm-6 Dennis Kelly
-          tr.m-0
-            td.col-sm-6 Homeowner Rep
-            td.col-sm-6 Julie Christ
-          tr.m-0
-            td.col-sm-6 Homeowner Rep
-            td.col-sm-6 Lois Tobin
  
     div.container
+      br
+      h1 Board Members
+      div.container.table-bordered
+        div.row.table-header
+          div.col.header Officer
+          div.col.header Name
+        div.row
+          div.col President
+          div.col Jesse Reed
+        div.row
+          div.col Treasurer
+          div.col Michael West
+        div.row
+          div.col Secretary
+          div.col Dennis Kelly
+        div.row
+          div.col omeowner Rep
+          div.col Julie Christ
+        div.row
+          div.col omeowner Rep
+          div.col Lois Tobin
+
+    div.container
+      br
       h1 Architectural Control Committee
-      table.table.table-bordered
-        thead.thread-dark
-          tr.m-0
-            th.col-sm-6 Member
-        tbody
-          tr.m-0
-            td.col-sm-6 Garry Tucker
-          tr.m-0
-            td.col-sm-6 Traci Bridges
-          tr.m-0
-            td.col-sm-6 Mike Williams
+      div.container.table-bordered
+        div.row.table-header
+          div.col.header Member
+        div.row
+          div.col Garry Tucker
+        div.row
+          div.col Traci Bridges
+        div.row
+          div.col Mike Williams
+ 
   
     div.container
-      h1 Social Committee
-      table.table.table-bordered
-        thead.thread-dark
-          tr.m-0
-            td.col-sm-6 Member
-        tbody
-          tr.m-0
-            td.col-sm-6 Jennifer Vanderschuere
- 
-    div.container
+      br
       h1 Services Committee
-      table.table.table-bordered
-        thead.thread-dark
-          tr.m-0
-            td.col-sm-6 Role
-            td.col-sm-6 Name
-        tbody
-          tr.m-0
-            td.col-sm-6 Neighborhood Directory
-            td.col-sm-6 Charles Schwarz
-          tr.m-0
-            td.col-sm-6 Neighborhood Watch
-            td.col-sm-6 Scott Eggleston
-          tr.m-0
-            td.col-sm-6 Website
-            td.col-sm-6 David McRaven
+      div.container.table-bordered
+        div.row.table-header
+          div.col.header Role
+          div.col.header Name
+        div.row
+          div.col Social Committee
+          div.col Jennifer Vanderschuere
+        div.row
+          div.col Neighborhood Directory
+          div.col Charles Schwarz
+        div.row
+          div.col Neighborhood Watch
+          div.col Scott Eggleston
+        div.row
+          div.col Website
+          div.col David McRaven

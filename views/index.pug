@@ -4,25 +4,22 @@ block content
 
   main(role="main")  
     div.jumbotron
-      div.container.opaque
+      div.container.opaque.rounded
         h1 Welcome to #{title} in Tigard, Oregon.
         p This site provides the current and future residents an interactive means of staying current with the latest news and events in our neighborhood.
         p If you are new to the neighborhood, take a look at the Points of Interest.
         p The Eagle Pointe neighborhood has several upcoming events.  All neighbors are welcome!
-    br  
-    div.container
-      table.table.table-bordered
-        thead.thead-dark
-          tr.m-0.p-0
-            td.col-4 Upcoming Events!
-            td.col-4 Date
-            td.col-4 Location
-        tbody
-          tr.m-0.p-0.old
-            td.col-4 HOA Meeting
-            td.col-4 April 7, 2018 @ 9am - Past
-            td.col-4 TV Firestation 50, 12617 SW Walnut
-          tr.m-0.p-0
-            td.col-4 Neighborhood Barbecue
-            td.col-4 July, 2018
-            td.col-4 Stay Tuned!
+
+    div.container.table-bordered
+      div.row.table-header
+        div.col.header Upcoming Events!
+        div.col.header Date
+        div.col.header Location
+      div.row.old
+        div.col HOA Meeting
+        div.col April 7, 2018 @ 9am - Past
+        div.col TV Firestation 50, 12617 SW Walnut
+      div.row
+        div.col Neighborhood Barbecue
+        div.col July, 2018
+        div.col Stay Tuned!
